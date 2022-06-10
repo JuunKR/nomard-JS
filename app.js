@@ -30,3 +30,5 @@ const superEventHandler = {
 app.addEventListener("mouseenter", superEventHandler.mouseenter);
 app.addEventListener("mouseleave", superEventHandler.mouseleave);
 app.addEventListener("click", superEventHandler.handleClick);
+
+console.dir(window)
